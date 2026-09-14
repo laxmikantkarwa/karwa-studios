@@ -58,7 +58,12 @@ export function Header() {
       <div className="container header-inner">
         <a className="brand" href="#hero-scroll-container">
           <span className="brand-mark">
-            <Image src={`${assetRoot}/lk-monogram.png`} alt="LK Monogram" width={128} height={128} />
+            <Image
+              src={`${assetRoot}/lk-monogram.png`}
+              alt="LK Monogram"
+              width={128}
+              height={128}
+            />
           </span>
           <span>
             <strong>Laxmikant Karwa</strong>
@@ -910,7 +915,12 @@ export function Footer() {
       <div className="container footer-inner">
         <div className="brand">
           <span className="brand-mark">
-            <Image src={`${assetRoot}/lk-monogram.png`} alt="LK Monogram" width={128} height={128} />
+            <Image
+              src={`${assetRoot}/lk-monogram.png`}
+              alt="LK Monogram"
+              width={128}
+              height={128}
+            />
           </span>
           <span>
             <strong>Laxmikant Karwa</strong>
