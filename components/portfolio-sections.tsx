@@ -183,6 +183,21 @@ export function Header() {
 export function Hero() {
   return (
     <div className="hero-scroll" id="hero-scroll-container">
+      <video
+        aria-hidden="true"
+        autoPlay
+        className="hero-background-video"
+        loop
+        muted
+        playsInline
+        preload="metadata"
+      >
+        <source
+          src="/stitch/architectural-frontend-portfolio/background.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div className="hero-background-overlay" aria-hidden="true" />
       <section className="hero-stage container">
         <div className="hero-copy" id="hero-headline-block">
           <div className="eyebrow">
